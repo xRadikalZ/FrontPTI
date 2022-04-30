@@ -42,10 +42,10 @@ const MyLineChart = () => {
   );
 };
 
-export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function TabOneScreen2({ navigation }: RootTabScreenProps<'TabOne2'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bot Activity Chart</Text>
+      <Text style={styles.title}>Investment value historic</Text>
       <View>
         <MyLineChart />
       </View>
